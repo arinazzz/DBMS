@@ -1,9 +1,156 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.0">
   <diagram name="Страница — 1" id="FaNnHWDu60eA_beYJ_xi">
-    <mxGraphModel>
+    <mxGraphModel dx="1364" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ADF2KxBBQFC554kneBru-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="ADF2KxBBQFC554kneBru-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="75" y="400" as="sourcePoint" />
+            <mxPoint x="80" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-2" value="Кнопка смены режима" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="60" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="150" width="10" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-4" value=":Устройство молящее кофе" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="60" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.4;entryY=0.32;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ADF2KxBBQFC554kneBru-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="230" as="sourcePoint" />
+            <mxPoint x="460" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-9" value="Смена режима работы()" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="ADF2KxBBQFC554kneBru-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-11" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-13" value="Дисплей:дисплей режима работы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="60" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.2;entryY=0.545;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ADF2KxBBQFC554kneBru-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ADF2KxBBQFC554kneBru-3" target="ADF2KxBBQFC554kneBru-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ADF2KxBBQFC554kneBru-11" target="ADF2KxBBQFC554kneBru-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-18" value="Смена иконки режима()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-19" value="Кнопка запуска" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-20" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="770" as="sourcePoint" />
+            <mxPoint x="110" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-21" value=":Устройство молящее кофе" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="610" width="15" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-23" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.35;entryY=1.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ADF2KxBBQFC554kneBru-22" target="ADF2KxBBQFC554kneBru-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="520" as="sourcePoint" />
+            <mxPoint x="430" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.067;entryY=0.381;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ADF2KxBBQFC554kneBru-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="670" as="sourcePoint" />
+            <mxPoint x="430" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-25" value="Запуск()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-26" value="Кнопка смены" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="840" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ADF2KxBBQFC554kneBru-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="790" as="sourcePoint" />
+            <mxPoint x="390" y="855" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-29" value="Сменить режим()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="252.5" y="820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ADF2KxBBQFC554kneBru-26" target="ADF2KxBBQFC554kneBru-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="860" as="sourcePoint" />
+            <mxPoint x="180" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-31" value="Дисплей:дисплей режима работы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="920" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-32" value="Отобразить новый режим" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="880" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-33" value=":устройство молящее кофе" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="840" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-34" value="Кнопка запуска" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1000" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ADF2KxBBQFC554kneBru-34" target="ADF2KxBBQFC554kneBru-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="1000" as="sourcePoint" />
+            <mxPoint x="580" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-36" value="Запустить()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="275" y="930" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.2;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.813;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ADF2KxBBQFC554kneBru-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="293" y="674" as="sourcePoint" />
+            <mxPoint x="340" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="674" />
+              <mxPoint x="360" y="710" />
+              <mxPoint x="360" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-38" value="Перемолоть кофе()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ADF2KxBBQFC554kneBru-33" target="ADF2KxBBQFC554kneBru-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="740" as="sourcePoint" />
+            <mxPoint x="610" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="863" />
+              <mxPoint x="560" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADF2KxBBQFC554kneBru-40" value="Перемолоть кофе()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="830" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
